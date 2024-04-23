@@ -18,7 +18,7 @@ function ocultar() {
   document.getElementById("pantalla-inicio").classList.toggle("d-none");
 }
 
-//Guardar los parametros que se ingresaron en los input
+//Guardar los parametros que se ingresaron en los input de registro y validar si ya estan registrados
 
 document.getElementById("enviar-registro").addEventListener("click", guardar);
 
